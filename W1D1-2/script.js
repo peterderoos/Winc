@@ -1,0 +1,16 @@
+console.log("Hello Winc Academy");
+let voornaam = "Peter";
+console.log(voornaam);
+let achternaam = "de Roos";
+console.log(voornaam, achternaam);
+let getal1 = 1;
+let getal2 = 2;
+console.log(getal1 + getal2);
+console.log(getal1 - getal2);
+console.log(getal1 * getal2);
+console.log(getal1 / getal2);
+console.log(getal1 % getal2);
+let leeftijd = 31;
+console.log(typeof leeftijd);
+let leeftijd2 = "eenendertig";
+console.log(typeof leeftijd2);

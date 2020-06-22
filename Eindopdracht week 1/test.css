@@ -1,0 +1,15 @@
+li :hover {
+    color: yellow;
+}
+
+li+li :hover {
+    color: teal;
+}
+
+li+li+li :hover {
+    color: brown;
+}
+
+li+li+li+li :hover {
+    color: blue;
+}

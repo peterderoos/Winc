@@ -1,0 +1,66 @@
+h2 {
+    margin: 0;
+}
+
+.info-block {
+    height: 180px;
+    width: 280px;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    float: left;
+    margin: 7px;
+    padding: 15px;
+    display: table;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.user-info {
+    color: grey;
+    font-size: 17px;
+    margin-top: 2px;
+    ;
+}
+
+.box-button {
+    border: 1px solid rgb(238, 238, 238);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: table-cell;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    width: 45%;
+    position: absolute;
+    bottom: 15px;
+}
+
+.button-left {
+    color: rgb(0, 192, 49);
+    border: 1px solid rgb(0, 192, 49);
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    left: 15px;
+}
+
+.button-right {
+    color: rgb(240, 29, 45);
+    border: 1px solid rgb(240, 29, 45);
+    border-radius: 0 5px 5px 0;
+    right: 15px;
+}

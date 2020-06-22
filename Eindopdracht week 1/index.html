@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <h1>Je kan evt switchen tussen toggle of click met de close button. (In code aanpassen:)</h1>
+    <div id="menu" class="smallmenu">
+        <ul>
+            <li class="closebtn" onclick="closeMenu()">&times;</li>
+            <li><a href="index.html">Home</a></li>
+            <li id="red">Red</li>
+            <li id="orange">Orange</li>
+            <li id="purple">Purple</li>
+            <li id="green">Green</li>
+        </ul>
+    </div>
+    <!-- Voor als je de toggle met de hamburger wil gebruiken en die blijft staan. -->
+    <span style="cursor:pointer" onmouseover="toggleMenu()"><img src="images/menu.png"></span>
+
+    <!-- Voor als je de hamburger en de close button wil gebruiken -->
+    <!-- <span style="cursor:pointer" onmouseover="openMenu()"><img src="images/menu.png"></span> -->
+</body>
+
+</html>

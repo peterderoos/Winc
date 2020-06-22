@@ -1,0 +1,71 @@
+img {
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+h1 {
+    z-index: 0;
+    position: absolute;
+}
+
+.smallmenu.open {
+    width: 250px;
+}
+
+.smallmenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+    transition: .5s;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+.smallmenu li, .smallmenu li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: .3s;
+}
+
+.smallmenu li a {
+    padding: 0;
+}
+
+.smallmenu li:nth-child(3) {
+    color: red;
+}
+
+.smallmenu li:nth-child(4) {
+    color: Orange;
+}
+
+.smallmenu li:nth-child(5) {
+    color: purple;
+}
+
+.smallmenu li:nth-child(6) {
+    color: green;
+}
+
+.smallmenu li:hover, .smallmenu li a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.smallmenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
